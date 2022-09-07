@@ -2,7 +2,7 @@ $baseColors: (
   // add colors as needed
   // will create from each color active below
   // 10 shades to be used for background-color and same 10 shades for text color
-  
+
   red: #F44336,
   pink: #E91E63,
   purple: #9C27B0,
@@ -53,11 +53,11 @@ $baseColors: (
 }
 
 @each $color, $value in colorMap($baseColors, 10) {
-  // generates classes for the background color
+  // generates classes for the background color, comment out if not needed
   .bg-#{$color} { 
     background-color: $value;
   }
-  // generates classes for the text color
+  // generates classes for the text color, comment out if not needed
   .text-#{$color} { 
     color: $value;
   }
