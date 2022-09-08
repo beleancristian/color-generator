@@ -1,27 +1,26 @@
 $baseColors: (
-  // add colors as needed
-  // will create from each color active below
-  // 10 shades to be used for background-color and same 10 shades for text color
-
-  red: #F44336,
-  pink: #E91E63,
-  purple: #9C27B0,
-  deep-purple: #673AB7,
-  indigo: #3F51B5,
-  blue: #2196F3,
-  light-blue: #03A9F4,
-  cyan: #00BCD4,
-  teal: #009688,
-  green: #4CAF50,
-  light-green: #8BC34A,
-  lime: #CDDC39,
-  yellow: #FFEB3B,
-  amber: #FFC107,
-  orange: #FF9800,
-  deep-orange: #FF5722,
-  brown: #795548,
-  grey: #9E9E9E,
-  blue-grey: #607D8B
+  //replace with any hex color code and name the color as you wish
+  //add, delete or replace colors as needed
+  //for the example to work, the active colors must be referenced in the html part also
+  redColor: #F44336,
+  pinkColor: #E91E63,
+  purpleColor: #9C27B0,
+  // deep-purple: #673AB7,
+  // indigo: #3F51B5,
+  // blue: #2196F3,
+  // light-blue: #03A9F4,
+  // cyan: #00BCD4,
+  // teal: #009688,
+  // green: #4CAF50,
+  // light-green: #8BC34A,
+  // lime: #CDDC39,
+  yellowColor: #FFEB3B,
+  // amber: #FFC107,
+  // orange: #FF9800,
+  // deep-orange: #FF5722,
+  // brown: #795548,
+  // grey: #9E9E9E,
+  // blue-grey: #607D8B,
 );
 
 @function colorMap($baseColors, $variations) {
@@ -45,7 +44,7 @@ $baseColors: (
       ));
     }
 
-    // middle eg 500
+    // middle ex. 500
     $colors: map-merge($colors, (#{$color}-50: lighten($value, 38.7)));
     $colors: map-merge($colors, (#{$color}-#{$variations/2*100}: $value));
   }
@@ -53,12 +52,56 @@ $baseColors: (
 }
 
 @each $color, $value in colorMap($baseColors, 10) {
-  // generates classes for the background color, comment out if not needed
+  //use this piece to generate background color classes
   .bg-#{$color} { 
     background-color: $value;
+    //this part is just for this example, for the divs to be filled with the colors
+    &::before {
+      content: '#{$value}';
+      font-family: monospace;
+      float: right;
+      text-transform: uppercase;
+    }
   }
-  // generates classes for the text color, comment out if not needed
+  
+  //use this piece to generate text color classess
   .text-#{$color} { 
     color: $value;
   }
+}
+
+
+//code below is just for this example
+//no need to be used 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swatches {
+  flex: auto;
+  margin: 20px;
+}
+
+.swatch-title {
+  padding: 12px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  
+  h3 {
+    margin: 0 0 50px;
+    font-size: inherit;
+  }
+}
+
+.color-swatch:nth-child(n+7) {
+  color: #fff;
+}
+
+.color-swatch {
+  box-sizing: border-box;
+  min-width: 360px;
+  padding: 12px;
+  display: block;
+  font-weight: bold;
 }
