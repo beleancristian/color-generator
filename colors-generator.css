@@ -125,17 +125,17 @@
 }
 
 .bg-redColor-500 {
-  background-color: #F44336;
+  background-color: #f44336;
 }
 .bg-redColor-500::before {
-  content: "#F44336";
+  content: "#f44336";
   font-family: monospace;
   float: right;
   text-transform: uppercase;
 }
 
 .text-redColor-500 {
-  color: #F44336;
+  color: #f44336;
 }
 
 .bg-pinkColor-100 {
@@ -265,17 +265,17 @@
 }
 
 .bg-pinkColor-500 {
-  background-color: #E91E63;
+  background-color: #e91e63;
 }
 .bg-pinkColor-500::before {
-  content: "#E91E63";
+  content: "#e91e63";
   font-family: monospace;
   float: right;
   text-transform: uppercase;
 }
 
 .text-pinkColor-500 {
-  color: #E91E63;
+  color: #e91e63;
 }
 
 .bg-purpleColor-100 {
@@ -405,17 +405,1277 @@
 }
 
 .bg-purpleColor-500 {
-  background-color: #9C27B0;
+  background-color: #9c27b0;
 }
 .bg-purpleColor-500::before {
-  content: "#9C27B0";
+  content: "#9c27b0";
   font-family: monospace;
   float: right;
   text-transform: uppercase;
 }
 
 .text-purpleColor-500 {
-  color: #9C27B0;
+  color: #9c27b0;
+}
+
+.bg-deeppurpleColor-100 {
+  background-color: #cebeea;
+}
+.bg-deeppurpleColor-100::before {
+  content: "#cebeea";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-100 {
+  color: #cebeea;
+}
+
+.bg-deeppurpleColor-900 {
+  background-color: #190e2c;
+}
+.bg-deeppurpleColor-900::before {
+  content: "#190e2c";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-900 {
+  color: #190e2c;
+}
+
+.bg-deeppurpleColor-200 {
+  background-color: #b49bdf;
+}
+.bg-deeppurpleColor-200::before {
+  content: "#b49bdf";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-200 {
+  color: #b49bdf;
+}
+
+.bg-deeppurpleColor-800 {
+  background-color: #2c194e;
+}
+.bg-deeppurpleColor-800::before {
+  content: "#2c194e";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-800 {
+  color: #2c194e;
+}
+
+.bg-deeppurpleColor-300 {
+  background-color: #9a78d4;
+}
+.bg-deeppurpleColor-300::before {
+  content: "#9a78d4";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-300 {
+  color: #9a78d4;
+}
+
+.bg-deeppurpleColor-700 {
+  background-color: #402471;
+}
+.bg-deeppurpleColor-700::before {
+  content: "#402471";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-700 {
+  color: #402471;
+}
+
+.bg-deeppurpleColor-400 {
+  background-color: #7f56c9;
+}
+.bg-deeppurpleColor-400::before {
+  content: "#7f56c9";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-400 {
+  color: #7f56c9;
+}
+
+.bg-deeppurpleColor-600 {
+  background-color: #532f94;
+}
+.bg-deeppurpleColor-600::before {
+  content: "#532f94";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-600 {
+  color: #532f94;
+}
+
+.bg-deeppurpleColor-50 {
+  background-color: #d6c9ee;
+}
+.bg-deeppurpleColor-50::before {
+  content: "#d6c9ee";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-50 {
+  color: #d6c9ee;
+}
+
+.bg-deeppurpleColor-500 {
+  background-color: #673ab7;
+}
+.bg-deeppurpleColor-500::before {
+  content: "#673ab7";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeppurpleColor-500 {
+  color: #673ab7;
+}
+
+.bg-indigoColor-100 {
+  background-color: #c2c8ea;
+}
+.bg-indigoColor-100::before {
+  content: "#c2c8ea";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-100 {
+  color: #c2c8ea;
+}
+
+.bg-indigoColor-900 {
+  background-color: #10142d;
+}
+.bg-indigoColor-900::before {
+  content: "#10142d";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-900 {
+  color: #10142d;
+}
+
+.bg-indigoColor-200 {
+  background-color: #a0a9de;
+}
+.bg-indigoColor-200::before {
+  content: "#a0a9de";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-200 {
+  color: #a0a9de;
+}
+
+.bg-indigoColor-800 {
+  background-color: #1b234f;
+}
+.bg-indigoColor-800::before {
+  content: "#1b234f";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-800 {
+  color: #1b234f;
+}
+
+.bg-indigoColor-300 {
+  background-color: #7e8bd2;
+}
+.bg-indigoColor-300::before {
+  content: "#7e8bd2";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-300 {
+  color: #7e8bd2;
+}
+
+.bg-indigoColor-700 {
+  background-color: #273371;
+}
+.bg-indigoColor-700::before {
+  content: "#273371";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-700 {
+  color: #273371;
+}
+
+.bg-indigoColor-400 {
+  background-color: #5c6cc6;
+}
+.bg-indigoColor-400::before {
+  content: "#5c6cc6";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-400 {
+  color: #5c6cc6;
+}
+
+.bg-indigoColor-600 {
+  background-color: #334293;
+}
+.bg-indigoColor-600::before {
+  content: "#334293";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-600 {
+  color: #334293;
+}
+
+.bg-indigoColor-50 {
+  background-color: #ccd1ed;
+}
+.bg-indigoColor-50::before {
+  content: "#ccd1ed";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-50 {
+  color: #ccd1ed;
+}
+
+.bg-indigoColor-500 {
+  background-color: #3f51b5;
+}
+.bg-indigoColor-500::before {
+  content: "#3f51b5";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-indigoColor-500 {
+  color: #3f51b5;
+}
+
+.bg-blueColor-100 {
+  background-color: #cfe8fc;
+}
+.bg-blueColor-100::before {
+  content: "#cfe8fc";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-100 {
+  color: #cfe8fc;
+}
+
+.bg-blueColor-900 {
+  background-color: #053358;
+}
+.bg-blueColor-900::before {
+  content: "#053358";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-900 {
+  color: #053358;
+}
+
+.bg-blueColor-200 {
+  background-color: #a4d4fa;
+}
+.bg-blueColor-200::before {
+  content: "#a4d4fa";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-200 {
+  color: #a4d4fa;
+}
+
+.bg-blueColor-800 {
+  background-color: #074c83;
+}
+.bg-blueColor-800::before {
+  content: "#074c83";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-800 {
+  color: #074c83;
+}
+
+.bg-blueColor-300 {
+  background-color: #78bff8;
+}
+.bg-blueColor-300::before {
+  content: "#78bff8";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-300 {
+  color: #78bff8;
+}
+
+.bg-blueColor-700 {
+  background-color: #0966af;
+}
+.bg-blueColor-700::before {
+  content: "#0966af";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-700 {
+  color: #0966af;
+}
+
+.bg-blueColor-400 {
+  background-color: #4dabf5;
+}
+.bg-blueColor-400::before {
+  content: "#4dabf5";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-400 {
+  color: #4dabf5;
+}
+
+.bg-blueColor-600 {
+  background-color: #0c7fda;
+}
+.bg-blueColor-600::before {
+  content: "#0c7fda";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-600 {
+  color: #0c7fda;
+}
+
+.bg-blueColor-50 {
+  background-color: #dceffd;
+}
+.bg-blueColor-50::before {
+  content: "#dceffd";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-50 {
+  color: #dceffd;
+}
+
+.bg-blueColor-500 {
+  background-color: #2196f3;
+}
+.bg-blueColor-500::before {
+  content: "#2196f3";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-blueColor-500 {
+  color: #2196f3;
+}
+
+.bg-lightblueColor-100 {
+  background-color: #b1e6fe;
+}
+.bg-lightblueColor-100::before {
+  content: "#b1e6fe";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-100 {
+  color: #b1e6fe;
+}
+
+.bg-lightblueColor-900 {
+  background-color: #012b3f;
+}
+.bg-lightblueColor-900::before {
+  content: "#012b3f";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-900 {
+  color: #012b3f;
+}
+
+.bg-lightblueColor-200 {
+  background-color: #83d7fd;
+}
+.bg-lightblueColor-200::before {
+  content: "#83d7fd";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-200 {
+  color: #83d7fd;
+}
+
+.bg-lightblueColor-800 {
+  background-color: #014b6c;
+}
+.bg-lightblueColor-800::before {
+  content: "#014b6c";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-800 {
+  color: #014b6c;
+}
+
+.bg-lightblueColor-300 {
+  background-color: #56c9fd;
+}
+.bg-lightblueColor-300::before {
+  content: "#56c9fd";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-300 {
+  color: #56c9fd;
+}
+
+.bg-lightblueColor-700 {
+  background-color: #026a99;
+}
+.bg-lightblueColor-700::before {
+  content: "#026a99";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-700 {
+  color: #026a99;
+}
+
+.bg-lightblueColor-400 {
+  background-color: #29bafc;
+}
+.bg-lightblueColor-400::before {
+  content: "#29bafc";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-400 {
+  color: #29bafc;
+}
+
+.bg-lightblueColor-600 {
+  background-color: #028ac7;
+}
+.bg-lightblueColor-600::before {
+  content: "#028ac7";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-600 {
+  color: #028ac7;
+}
+
+.bg-lightblueColor-50 {
+  background-color: #beeafe;
+}
+.bg-lightblueColor-50::before {
+  content: "#beeafe";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-50 {
+  color: #beeafe;
+}
+
+.bg-lightblueColor-500 {
+  background-color: #03a9f4;
+}
+.bg-lightblueColor-500::before {
+  content: "#03a9f4";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightblueColor-500 {
+  color: #03a9f4;
+}
+
+.bg-cyanColor-100 {
+  background-color: #8df2ff;
+}
+.bg-cyanColor-100::before {
+  content: "#8df2ff";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-100 {
+  color: #8df2ff;
+}
+
+.bg-cyanColor-900 {
+  background-color: #00191c;
+}
+.bg-cyanColor-900::before {
+  content: "#00191c";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-900 {
+  color: #00191c;
+}
+
+.bg-cyanColor-200 {
+  background-color: #5fedff;
+}
+.bg-cyanColor-200::before {
+  content: "#5fedff";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-200 {
+  color: #5fedff;
+}
+
+.bg-cyanColor-800 {
+  background-color: #00424a;
+}
+.bg-cyanColor-800::before {
+  content: "#00424a";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-800 {
+  color: #00424a;
+}
+
+.bg-cyanColor-300 {
+  background-color: #31e8ff;
+}
+.bg-cyanColor-300::before {
+  content: "#31e8ff";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-300 {
+  color: #31e8ff;
+}
+
+.bg-cyanColor-700 {
+  background-color: #006b78;
+}
+.bg-cyanColor-700::before {
+  content: "#006b78";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-700 {
+  color: #006b78;
+}
+
+.bg-cyanColor-400 {
+  background-color: #03e2ff;
+}
+.bg-cyanColor-400::before {
+  content: "#03e2ff";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-400 {
+  color: #03e2ff;
+}
+
+.bg-cyanColor-600 {
+  background-color: #0093a6;
+}
+.bg-cyanColor-600::before {
+  content: "#0093a6";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-600 {
+  color: #0093a6;
+}
+
+.bg-cyanColor-50 {
+  background-color: #9af4ff;
+}
+.bg-cyanColor-50::before {
+  content: "#9af4ff";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-50 {
+  color: #9af4ff;
+}
+
+.bg-cyanColor-500 {
+  background-color: #00bcd4;
+}
+.bg-cyanColor-500::before {
+  content: "#00bcd4";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-cyanColor-500 {
+  color: #00bcd4;
+}
+
+.bg-tealColor-100 {
+  background-color: #4fffef;
+}
+.bg-tealColor-100::before {
+  content: "#4fffef";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-100 {
+  color: #4fffef;
+}
+
+.bg-tealColor-900 {
+  background-color: black;
+}
+.bg-tealColor-900::before {
+  content: "black";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-900 {
+  color: black;
+}
+
+.bg-tealColor-200 {
+  background-color: #21ffea;
+}
+.bg-tealColor-200::before {
+  content: "#21ffea";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-200 {
+  color: #21ffea;
+}
+
+.bg-tealColor-800 {
+  background-color: #000c0b;
+}
+.bg-tealColor-800::before {
+  content: "#000c0b";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-800 {
+  color: #000c0b;
+}
+
+.bg-tealColor-300 {
+  background-color: #00f2db;
+}
+.bg-tealColor-300::before {
+  content: "#00f2db";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-300 {
+  color: #00f2db;
+}
+
+.bg-tealColor-700 {
+  background-color: #003a35;
+}
+.bg-tealColor-700::before {
+  content: "#003a35";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-700 {
+  color: #003a35;
+}
+
+.bg-tealColor-400 {
+  background-color: #00c4b2;
+}
+.bg-tealColor-400::before {
+  content: "#00c4b2";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-400 {
+  color: #00c4b2;
+}
+
+.bg-tealColor-600 {
+  background-color: #00685e;
+}
+.bg-tealColor-600::before {
+  content: "#00685e";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-600 {
+  color: #00685e;
+}
+
+.bg-tealColor-50 {
+  background-color: #5cfff0;
+}
+.bg-tealColor-50::before {
+  content: "#5cfff0";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-50 {
+  color: #5cfff0;
+}
+
+.bg-tealColor-500 {
+  background-color: #009688;
+}
+.bg-tealColor-500::before {
+  content: "#009688";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-tealColor-500 {
+  color: #009688;
+}
+
+.bg-greenColor-100 {
+  background-color: #cae8cc;
+}
+.bg-greenColor-100::before {
+  content: "#cae8cc";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-100 {
+  color: #cae8cc;
+}
+
+.bg-greenColor-900 {
+  background-color: #142f15;
+}
+.bg-greenColor-900::before {
+  content: "#142f15";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-900 {
+  color: #142f15;
+}
+
+.bg-greenColor-200 {
+  background-color: #aadaac;
+}
+.bg-greenColor-200::before {
+  content: "#aadaac";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-200 {
+  color: #aadaac;
+}
+
+.bg-greenColor-800 {
+  background-color: #224f24;
+}
+.bg-greenColor-800::before {
+  content: "#224f24";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-800 {
+  color: #224f24;
+}
+
+.bg-greenColor-300 {
+  background-color: #8acc8d;
+}
+.bg-greenColor-300::before {
+  content: "#8acc8d";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-300 {
+  color: #8acc8d;
+}
+
+.bg-greenColor-700 {
+  background-color: #306f33;
+}
+.bg-greenColor-700::before {
+  content: "#306f33";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-700 {
+  color: #306f33;
+}
+
+.bg-greenColor-400 {
+  background-color: #6abe6e;
+}
+.bg-greenColor-400::before {
+  content: "#6abe6e";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-400 {
+  color: #6abe6e;
+}
+
+.bg-greenColor-600 {
+  background-color: #3e8f41;
+}
+.bg-greenColor-600::before {
+  content: "#3e8f41";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-600 {
+  color: #3e8f41;
+}
+
+.bg-greenColor-50 {
+  background-color: #d4ecd5;
+}
+.bg-greenColor-50::before {
+  content: "#d4ecd5";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-50 {
+  color: #d4ecd5;
+}
+
+.bg-greenColor-500 {
+  background-color: #4caf50;
+}
+.bg-greenColor-500::before {
+  content: "#4caf50";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greenColor-500 {
+  color: #4caf50;
+}
+
+.bg-lightgreenColor-100 {
+  background-color: #e3f1d4;
+}
+.bg-lightgreenColor-100::before {
+  content: "#e3f1d4";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-100 {
+  color: #e3f1d4;
+}
+
+.bg-lightgreenColor-900 {
+  background-color: #2c4015;
+}
+.bg-lightgreenColor-900::before {
+  content: "#2c4015";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-900 {
+  color: #2c4015;
+}
+
+.bg-lightgreenColor-200 {
+  background-color: #cde5b1;
+}
+.bg-lightgreenColor-200::before {
+  content: "#cde5b1";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-200 {
+  color: #cde5b1;
+}
+
+.bg-lightgreenColor-800 {
+  background-color: #446321;
+}
+.bg-lightgreenColor-800::before {
+  content: "#446321";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-800 {
+  color: #446321;
+}
+
+.bg-lightgreenColor-300 {
+  background-color: #b7da8f;
+}
+.bg-lightgreenColor-300::before {
+  content: "#b7da8f";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-300 {
+  color: #b7da8f;
+}
+
+.bg-lightgreenColor-700 {
+  background-color: #5c852c;
+}
+.bg-lightgreenColor-700::before {
+  content: "#5c852c";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-700 {
+  color: #5c852c;
+}
+
+.bg-lightgreenColor-400 {
+  background-color: #a1ce6c;
+}
+.bg-lightgreenColor-400::before {
+  content: "#a1ce6c";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-400 {
+  color: #a1ce6c;
+}
+
+.bg-lightgreenColor-600 {
+  background-color: #74a838;
+}
+.bg-lightgreenColor-600::before {
+  content: "#74a838";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-600 {
+  color: #74a838;
+}
+
+.bg-lightgreenColor-50 {
+  background-color: #eaf4de;
+}
+.bg-lightgreenColor-50::before {
+  content: "#eaf4de";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-50 {
+  color: #eaf4de;
+}
+
+.bg-lightgreenColor-500 {
+  background-color: #8bc34a;
+}
+.bg-lightgreenColor-500::before {
+  content: "#8bc34a";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-lightgreenColor-500 {
+  color: #8bc34a;
+}
+
+.bg-limeColor-100 {
+  background-color: #f4f8d5;
+}
+.bg-limeColor-100::before {
+  content: "#f4f8d5";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-100 {
+  color: #f4f8d5;
+}
+
+.bg-limeColor-900 {
+  background-color: #494f0e;
+}
+.bg-limeColor-900::before {
+  content: "#494f0e";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-900 {
+  color: #494f0e;
+}
+
+.bg-limeColor-200 {
+  background-color: #ebf1ae;
+}
+.bg-limeColor-200::before {
+  content: "#ebf1ae";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-200 {
+  color: #ebf1ae;
+}
+
+.bg-limeColor-800 {
+  background-color: #6d7615;
+}
+.bg-limeColor-800::before {
+  content: "#6d7615";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-800 {
+  color: #6d7615;
+}
+
+.bg-limeColor-300 {
+  background-color: #e1ea87;
+}
+.bg-limeColor-300::before {
+  content: "#e1ea87";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-300 {
+  color: #e1ea87;
+}
+
+.bg-limeColor-700 {
+  background-color: #919d1c;
+}
+.bg-limeColor-700::before {
+  content: "#919d1c";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-700 {
+  color: #919d1c;
+}
+
+.bg-limeColor-400 {
+  background-color: #d7e360;
+}
+.bg-limeColor-400::before {
+  content: "#d7e360";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-400 {
+  color: #d7e360;
+}
+
+.bg-limeColor-600 {
+  background-color: #b6c423;
+}
+.bg-limeColor-600::before {
+  content: "#b6c423";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-600 {
+  color: #b6c423;
+}
+
+.bg-limeColor-50 {
+  background-color: #f7fae1;
+}
+.bg-limeColor-50::before {
+  content: "#f7fae1";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-50 {
+  color: #f7fae1;
+}
+
+.bg-limeColor-500 {
+  background-color: #cddc39;
+}
+.bg-limeColor-500::before {
+  content: "#cddc39";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-limeColor-500 {
+  color: #cddc39;
 }
 
 .bg-yellowColor-100 {
@@ -545,17 +1805,997 @@
 }
 
 .bg-yellowColor-500 {
-  background-color: #FFEB3B;
+  background-color: #ffeb3b;
 }
 .bg-yellowColor-500::before {
-  content: "#FFEB3B";
+  content: "#ffeb3b";
   font-family: monospace;
   float: right;
   text-transform: uppercase;
 }
 
 .text-yellowColor-500 {
-  color: #FFEB3B;
+  color: #ffeb3b;
+}
+
+.bg-amberColor-100 {
+  background-color: #ffefbf;
+}
+.bg-amberColor-100::before {
+  content: "#ffefbf";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-100 {
+  color: #ffefbf;
+}
+
+.bg-amberColor-900 {
+  background-color: #4e3b00;
+}
+.bg-amberColor-900::before {
+  content: "#4e3b00";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-900 {
+  color: #4e3b00;
+}
+
+.bg-amberColor-200 {
+  background-color: #ffe391;
+}
+.bg-amberColor-200::before {
+  content: "#ffe391";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-200 {
+  color: #ffe391;
+}
+
+.bg-amberColor-800 {
+  background-color: #7c5d00;
+}
+.bg-amberColor-800::before {
+  content: "#7c5d00";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-800 {
+  color: #7c5d00;
+}
+
+.bg-amberColor-300 {
+  background-color: #ffd863;
+}
+.bg-amberColor-300::before {
+  content: "#ffd863";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-300 {
+  color: #ffd863;
+}
+
+.bg-amberColor-700 {
+  background-color: #aa8000;
+}
+.bg-amberColor-700::before {
+  content: "#aa8000";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-700 {
+  color: #aa8000;
+}
+
+.bg-amberColor-400 {
+  background-color: #ffcc35;
+}
+.bg-amberColor-400::before {
+  content: "#ffcc35";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-400 {
+  color: #ffcc35;
+}
+
+.bg-amberColor-600 {
+  background-color: #d8a200;
+}
+.bg-amberColor-600::before {
+  content: "#d8a200";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-600 {
+  color: #d8a200;
+}
+
+.bg-amberColor-50 {
+  background-color: #fff2cc;
+}
+.bg-amberColor-50::before {
+  content: "#fff2cc";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-50 {
+  color: #fff2cc;
+}
+
+.bg-amberColor-500 {
+  background-color: #ffc107;
+}
+.bg-amberColor-500::before {
+  content: "#ffc107";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-amberColor-500 {
+  color: #ffc107;
+}
+
+.bg-orangeColor-100 {
+  background-color: #ffe2b8;
+}
+.bg-orangeColor-100::before {
+  content: "#ffe2b8";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-100 {
+  color: #ffe2b8;
+}
+
+.bg-orangeColor-900 {
+  background-color: #472b00;
+}
+.bg-orangeColor-900::before {
+  content: "#472b00";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-900 {
+  color: #472b00;
+}
+
+.bg-orangeColor-200 {
+  background-color: #ffd08a;
+}
+.bg-orangeColor-200::before {
+  content: "#ffd08a";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-200 {
+  color: #ffd08a;
+}
+
+.bg-orangeColor-800 {
+  background-color: #754600;
+}
+.bg-orangeColor-800::before {
+  content: "#754600";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-800 {
+  color: #754600;
+}
+
+.bg-orangeColor-300 {
+  background-color: #ffbd5c;
+}
+.bg-orangeColor-300::before {
+  content: "#ffbd5c";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-300 {
+  color: #ffbd5c;
+}
+
+.bg-orangeColor-700 {
+  background-color: #a36100;
+}
+.bg-orangeColor-700::before {
+  content: "#a36100";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-700 {
+  color: #a36100;
+}
+
+.bg-orangeColor-400 {
+  background-color: #ffab2e;
+}
+.bg-orangeColor-400::before {
+  content: "#ffab2e";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-400 {
+  color: #ffab2e;
+}
+
+.bg-orangeColor-600 {
+  background-color: #d17d00;
+}
+.bg-orangeColor-600::before {
+  content: "#d17d00";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-600 {
+  color: #d17d00;
+}
+
+.bg-orangeColor-50 {
+  background-color: #ffe8c5;
+}
+.bg-orangeColor-50::before {
+  content: "#ffe8c5";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-50 {
+  color: #ffe8c5;
+}
+
+.bg-orangeColor-500 {
+  background-color: #ff9800;
+}
+.bg-orangeColor-500::before {
+  content: "#ff9800";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-orangeColor-500 {
+  color: #ff9800;
+}
+
+.bg-deeporangeColor-100 {
+  background-color: #ffe3da;
+}
+.bg-deeporangeColor-100::before {
+  content: "#ffe3da";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-100 {
+  color: #ffe3da;
+}
+
+.bg-deeporangeColor-900 {
+  background-color: #691900;
+}
+.bg-deeporangeColor-900::before {
+  content: "#691900";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-900 {
+  color: #691900;
+}
+
+.bg-deeporangeColor-200 {
+  background-color: #ffc0ac;
+}
+.bg-deeporangeColor-200::before {
+  content: "#ffc0ac";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-200 {
+  color: #ffc0ac;
+}
+
+.bg-deeporangeColor-800 {
+  background-color: #972400;
+}
+.bg-deeporangeColor-800::before {
+  content: "#972400";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-800 {
+  color: #972400;
+}
+
+.bg-deeporangeColor-300 {
+  background-color: #ff9d7e;
+}
+.bg-deeporangeColor-300::before {
+  content: "#ff9d7e";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-300 {
+  color: #ff9d7e;
+}
+
+.bg-deeporangeColor-700 {
+  background-color: #c52f00;
+}
+.bg-deeporangeColor-700::before {
+  content: "#c52f00";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-700 {
+  color: #c52f00;
+}
+
+.bg-deeporangeColor-400 {
+  background-color: #ff7a50;
+}
+.bg-deeporangeColor-400::before {
+  content: "#ff7a50";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-400 {
+  color: #ff7a50;
+}
+
+.bg-deeporangeColor-600 {
+  background-color: #f33a00;
+}
+.bg-deeporangeColor-600::before {
+  content: "#f33a00";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-600 {
+  color: #f33a00;
+}
+
+.bg-deeporangeColor-50 {
+  background-color: #ffede7;
+}
+.bg-deeporangeColor-50::before {
+  content: "#ffede7";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-50 {
+  color: #ffede7;
+}
+
+.bg-deeporangeColor-500 {
+  background-color: #ff5722;
+}
+.bg-deeporangeColor-500::before {
+  content: "#ff5722";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-deeporangeColor-500 {
+  color: #ff5722;
+}
+
+.bg-brownColor-100 {
+  background-color: #cdb4ab;
+}
+.bg-brownColor-100::before {
+  content: "#cdb4ab";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-100 {
+  color: #cdb4ab;
+}
+
+.bg-brownColor-900 {
+  background-color: #060404;
+}
+.bg-brownColor-900::before {
+  content: "#060404";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-900 {
+  color: #060404;
+}
+
+.bg-brownColor-200 {
+  background-color: #bc9b8f;
+}
+.bg-brownColor-200::before {
+  content: "#bc9b8f";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-200 {
+  color: #bc9b8f;
+}
+
+.bg-brownColor-800 {
+  background-color: #231815;
+}
+.bg-brownColor-800::before {
+  content: "#231815";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-800 {
+  color: #231815;
+}
+
+.bg-brownColor-300 {
+  background-color: #ab8172;
+}
+.bg-brownColor-300::before {
+  content: "#ab8172";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-300 {
+  color: #ab8172;
+}
+
+.bg-brownColor-700 {
+  background-color: #3f2d26;
+}
+.bg-brownColor-700::before {
+  content: "#3f2d26";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-700 {
+  color: #3f2d26;
+}
+
+.bg-brownColor-400 {
+  background-color: #966959;
+}
+.bg-brownColor-400::before {
+  content: "#966959";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-400 {
+  color: #966959;
+}
+
+.bg-brownColor-600 {
+  background-color: #5c4137;
+}
+.bg-brownColor-600::before {
+  content: "#5c4137";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-600 {
+  color: #5c4137;
+}
+
+.bg-brownColor-50 {
+  background-color: #d2bcb4;
+}
+.bg-brownColor-50::before {
+  content: "#d2bcb4";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-50 {
+  color: #d2bcb4;
+}
+
+.bg-brownColor-500 {
+  background-color: #795548;
+}
+.bg-brownColor-500::before {
+  content: "#795548";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-brownColor-500 {
+  color: #795548;
+}
+
+.bg-greyColor-100 {
+  background-color: #fafafa;
+}
+.bg-greyColor-100::before {
+  content: "#fafafa";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-100 {
+  color: #fafafa;
+}
+
+.bg-greyColor-900 {
+  background-color: #424242;
+}
+.bg-greyColor-900::before {
+  content: "#424242";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-900 {
+  color: #424242;
+}
+
+.bg-greyColor-200 {
+  background-color: #e3e3e3;
+}
+.bg-greyColor-200::before {
+  content: "#e3e3e3";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-200 {
+  color: #e3e3e3;
+}
+
+.bg-greyColor-800 {
+  background-color: #595959;
+}
+.bg-greyColor-800::before {
+  content: "#595959";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-800 {
+  color: #595959;
+}
+
+.bg-greyColor-300 {
+  background-color: #cccccc;
+}
+.bg-greyColor-300::before {
+  content: "#cccccc";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-300 {
+  color: #cccccc;
+}
+
+.bg-greyColor-700 {
+  background-color: #707070;
+}
+.bg-greyColor-700::before {
+  content: "#707070";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-700 {
+  color: #707070;
+}
+
+.bg-greyColor-400 {
+  background-color: #b5b5b5;
+}
+.bg-greyColor-400::before {
+  content: "#b5b5b5";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-400 {
+  color: #b5b5b5;
+}
+
+.bg-greyColor-600 {
+  background-color: #878787;
+}
+.bg-greyColor-600::before {
+  content: "#878787";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-600 {
+  color: #878787;
+}
+
+.bg-greyColor-50 {
+  background-color: white;
+}
+.bg-greyColor-50::before {
+  content: "white";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-50 {
+  color: white;
+}
+
+.bg-greyColor-500 {
+  background-color: #9e9e9e;
+}
+.bg-greyColor-500::before {
+  content: "#9e9e9e";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-greyColor-500 {
+  color: #9e9e9e;
+}
+
+.bg-bluegreyColor-100 {
+  background-color: #c9d4da;
+}
+.bg-bluegreyColor-100::before {
+  content: "#c9d4da";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-100 {
+  color: #c9d4da;
+}
+
+.bg-bluegreyColor-900 {
+  background-color: #151b1e;
+}
+.bg-bluegreyColor-900::before {
+  content: "#151b1e";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-900 {
+  color: #151b1e;
+}
+
+.bg-bluegreyColor-200 {
+  background-color: #aebfc7;
+}
+.bg-bluegreyColor-200::before {
+  content: "#aebfc7";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-200 {
+  color: #aebfc7;
+}
+
+.bg-bluegreyColor-800 {
+  background-color: #28343a;
+}
+.bg-bluegreyColor-800::before {
+  content: "#28343a";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-800 {
+  color: #28343a;
+}
+
+.bg-bluegreyColor-300 {
+  background-color: #93a9b4;
+}
+.bg-bluegreyColor-300::before {
+  content: "#93a9b4";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-300 {
+  color: #93a9b4;
+}
+
+.bg-bluegreyColor-700 {
+  background-color: #3a4c55;
+}
+.bg-bluegreyColor-700::before {
+  content: "#3a4c55";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-700 {
+  color: #3a4c55;
+}
+
+.bg-bluegreyColor-400 {
+  background-color: #7794a1;
+}
+.bg-bluegreyColor-400::before {
+  content: "#7794a1";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-400 {
+  color: #7794a1;
+}
+
+.bg-bluegreyColor-600 {
+  background-color: #4d6570;
+}
+.bg-bluegreyColor-600::before {
+  content: "#4d6570";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-600 {
+  color: #4d6570;
+}
+
+.bg-bluegreyColor-50 {
+  background-color: #d1dbdf;
+}
+.bg-bluegreyColor-50::before {
+  content: "#d1dbdf";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-50 {
+  color: #d1dbdf;
+}
+
+.bg-bluegreyColor-500 {
+  background-color: #607d8b;
+}
+.bg-bluegreyColor-500::before {
+  content: "#607d8b";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-bluegreyColor-500 {
+  color: #607d8b;
+}
+
+.bg-darkgrayColor-100 {
+  background-color: #8f8f8f;
+}
+.bg-darkgrayColor-100::before {
+  content: "#8f8f8f";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-100 {
+  color: #8f8f8f;
+}
+
+.bg-darkgrayColor-900 {
+  background-color: black;
+}
+.bg-darkgrayColor-900::before {
+  content: "black";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-900 {
+  color: black;
+}
+
+.bg-darkgrayColor-200 {
+  background-color: #787878;
+}
+.bg-darkgrayColor-200::before {
+  content: "#787878";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-200 {
+  color: #787878;
+}
+
+.bg-darkgrayColor-800 {
+  background-color: black;
+}
+.bg-darkgrayColor-800::before {
+  content: "black";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-800 {
+  color: black;
+}
+
+.bg-darkgrayColor-300 {
+  background-color: #616161;
+}
+.bg-darkgrayColor-300::before {
+  content: "#616161";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-300 {
+  color: #616161;
+}
+
+.bg-darkgrayColor-700 {
+  background-color: #050505;
+}
+.bg-darkgrayColor-700::before {
+  content: "#050505";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-700 {
+  color: #050505;
+}
+
+.bg-darkgrayColor-400 {
+  background-color: #4a4a4a;
+}
+.bg-darkgrayColor-400::before {
+  content: "#4a4a4a";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-400 {
+  color: #4a4a4a;
+}
+
+.bg-darkgrayColor-600 {
+  background-color: #1c1c1c;
+}
+.bg-darkgrayColor-600::before {
+  content: "#1c1c1c";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-600 {
+  color: #1c1c1c;
+}
+
+.bg-darkgrayColor-50 {
+  background-color: #969696;
+}
+.bg-darkgrayColor-50::before {
+  content: "#969696";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-50 {
+  color: #969696;
+}
+
+.bg-darkgrayColor-500 {
+  background-color: #333333;
+}
+.bg-darkgrayColor-500::before {
+  content: "#333333";
+  font-family: monospace;
+  float: right;
+  text-transform: uppercase;
+}
+
+.text-darkgrayColor-500 {
+  color: #333333;
 }
 
 .container {
